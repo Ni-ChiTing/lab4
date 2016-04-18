@@ -1,0 +1,8 @@
+A.0000000000400624 T _Z7averagePdRd
+  0000000000400652 T _Z7averageif
+B.
+	1 8
+4 8
+4 8
+8 8
+系統定義char double int float大一般變數的大小各是 1bytes,8bytes,4bytes,4bytes,但是指標變數是依據作業系統跟編譯器是六十四位元或三十二位元而有所不同,因指標是存位置,所以每個變數型態的指標大小都一樣,如果是32位元的話就是4bytes若64位元是8bytes
